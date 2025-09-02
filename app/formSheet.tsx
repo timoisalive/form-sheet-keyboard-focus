@@ -4,10 +4,10 @@ import { Pressable, StyleSheet } from "react-native"
 import { ThemedText } from "@/components/themed-text"
 import { ThemedView } from "@/components/themed-view"
 
-export default function ModalScreen() {
+export default function FormSheet() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="title">This is a modal</ThemedText>
+      <ThemedText type="title">Form sheet content</ThemedText>
 
       <Link href="/" dismissTo style={styles.link} asChild>
         <Pressable>
@@ -21,7 +21,6 @@ export default function ModalScreen() {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    backgroundColor: "pink",
     flex: 1,
     justifyContent: "center",
     padding: 20,
