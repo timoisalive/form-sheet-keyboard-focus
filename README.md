@@ -1,10 +1,12 @@
 # Android keyboard keyboard accessibility with form sheets
 
-When opening a form sheet with Android (via keyboard), the keyboard focus should stay within the form sheet like it does on iOS. Also, when using `presentation: 'modal'`, the keyboard focus stays within the modal.
+When opening a form sheet with Android (via keyboard), the keyboard focus should stay within the form sheet. Currently the focus can be moved to the accessible elements on the screen below as well as the bottom tabs, which should not be possible.
 
-To test in Android emulator, use your keyboard to control the app (move with arrows, press buttons with spacebar).
+On iOS the keyboard focus stays within the modal and also, when using `presentation: 'modal'`, the focus behaves as expected on both platforms.
 
-On iOS, make sure you have Full Keyboard Access on in Accessibility Settings.
+To test in emulator/simulator, use your keyboard to control the app (move with arrows, press buttons with spacebar).
+
+On iOS, make sure you have Full Keyboard Access switched on in Accessibility Settings.
 
 # Welcome to your Expo app 👋
 
